@@ -39,12 +39,13 @@ export default function Hero() {
           </div>
 
           <div className="w-full md:w-2/5">
-            <div className="relative bg-bg-alt rounded-2xl overflow-hidden min-h-80">
-              <div className="flex items-center justify-center h-full min-h-80 p-12">
-                <p className="text-muted-foreground text-sm text-center leading-relaxed">
-                  [ foto výcvikového vozu ]
-                </p>
-              </div>
+            <div className="relative rounded-2xl overflow-hidden">
+              <img
+                src="/Gemini_Generated_Image_rs5aefrs5aefrs5a.png"
+                alt="Výcvikový vůz Autoškola Karel Krejzek"
+                className="w-full h-auto object-cover rounded-2xl"
+                loading="lazy"
+              />
               <div className="absolute bottom-4 left-4 bg-primary text-primary-foreground text-sm font-semibold px-4 py-2 rounded-xl shadow-lg">
                 Skupina B od 22&nbsp;000 Kč
               </div>
